@@ -1,6 +1,7 @@
 bikeshare = open('train.csv', 'r')
 subtrain = open('subtrain.csv', 'w')
 validate = open('validate.csv', 'w')
+bikeshare.readline()
 for line in bikeshare.readline():
     line = line.strip()
     columns = line.split(',')
